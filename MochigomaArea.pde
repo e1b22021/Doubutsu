@@ -7,6 +7,7 @@ class MochigomaArea extends AbstractArea {
       for (int j=posY; j<posY+tate; j++) {
         fill(#dddddd);
         rect(i*SQUARESIZE, j*SQUARESIZE, SQUARESIZE, SQUARESIZE);
+        
       }
     }
   }
